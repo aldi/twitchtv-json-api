@@ -1,0 +1,47 @@
+html, body {
+	background: #00C9FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.btn-group {
+	width: inherit;
+	display: inline-block;
+}
+
+.imagen{
+	border-radius: 50%;
+	width: 5rem;
+	float: right;
+	
+}
+
+.check{
+	float: left;
+}
+
+.texti{
+	font-family: 'Roboto';
+	font-size: 1rem;
+	color: #dc3545;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+
+.prueba{
+	margin-left: 10rem;
+}
+
+.status{
+	font-size: 14px;
+	color: #6d6767;
+}
+
+.row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.main-search {
+	box-shadow: 0 0 8px 8px black inset;
+}

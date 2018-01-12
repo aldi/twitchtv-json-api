@@ -1,0 +1,151 @@
+<!-- <html>
+<head>
+	<title>Wikipedia Search</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div class="hidden" id="searched_results_display">
+		<header>
+			<nav>
+				<a onclick="window.location.href=this" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png" alt="" style="height: 50px;"></a>
+				<div class="after_search_container">
+					<input type="text" id="after_search"/ >
+					<span style="background-color:#209cee;"><i class="fa fa-search"></i></span>
+				</div>
+			</nav>
+		</header>
+		<section class="wiki_results">
+		</section>
+	</div> 
+
+	<div class="container main_search">
+	</br>
+	<p class="level-item has-text-centered">
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png" alt="" style="height: 100px;"></a>
+	</p>
+	<h4 class="titlos title is-4 has-text-centered">Wikipedia Search</h4>
+
+	<div class="card">
+		<div class="field is-grouped has-addons-centered">
+			<p class="control is-expanded">
+				<input class="input" id="before_url" type="text" placeholder="Search anything" autofocus>
+			</p>
+			<p class="control search_buttons">
+				<a type="submit" class="button is-info" id="search" href="#"><i class="fa fa-search" style="padding-right: 8px;"></i> Search</a>
+				<a type="submit" class="button is-info" id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random" style="padding-right: 8px;"></i> I'm feeling lucky</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container footer_container">
+	<div class="content has-text-centered">
+		<p>
+			Project by <a target="_blank" href="https://aldiduzha.com">Aldi Duzha</a>. The source code is licensed under
+			<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+			is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+		</p>
+		<p>
+			Available in <a target="_blank" href="https://github.com/aldi/wikipedia_search"><i class="fa fa-github"></i></a> and <a target="_blank" href="https://codepen.io/aldiduzha/pen/xPymEVi"><i class="fa fa-codepen"></i></a>.
+		</p>
+	</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html> -->
+
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Twitchtv JSON API</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--bootstrap css -->	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<!-- MAIN BODY -->
+	<div class="container main_search">
+	</br>
+	<p class="level-item has-text-centered">
+		<a href="https://twitch.tv" target="_blank"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/twitch-profile_image-8a8c5be2e3b64a9a-300x300.png" alt="" style="height: 50px;"></a>
+	</p>
+	<h4 class="titlos title is-4 has-text-centered">Twitch JSON API</h4>
+	<div class="card">
+		<div class="field is-grouped has-addons-centered">
+			<div class="container has-addons-centered"></br>
+				<div class="buttons is-centered">
+					<a class="button is-info all is-active" id="all">All</a>
+					<a class="button is-success is-outlined online" id="online">Online</a>
+					<a class="button is-danger is-outlined offline" id="offline">Offline</a>
+				</div>
+				<div id="channels" class="column is-centered has-nice-link">
+
+				</div></br>
+			</div></br>
+
+		</div>
+	</div>
+</div>
+
+
+<!--FOOTER AREA -->
+<div class="container footer_container">
+	<div class="content has-text-centered"></br>
+		<p>
+			Project by <a target="_blank" href="https://aldiduzha.com">Aldi Duzha</a>. The source code is licensed under
+			<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+			is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+		</p>
+		<p>
+			Available in <a target="_blank" href="https://github.com/aldi/twitchtv-json-api"><i class="fa fa-github"></i></a> and <a target="_blank" href="https://codepen.io/aldiduzha/pen/jYKBdQ"><i class="fa fa-codepen"></i></a>.
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+	var all = document.getElementById('all'),
+	online = document.getElementById('online'),
+	offline = document.getElementById('offline');
+
+	all.addEventListener('click', function() {
+		$(this).addClass("is-active");
+		$(this).removeClass("is-outlined");
+		$(".online").removeClass("is-active");
+		$(".online").addClass("is-outlined");
+		$(".offline").removeClass("is-active");
+		$(".offline").addClass("is-outlined");
+	});
+
+	online.addEventListener('click', function() {
+		$(this).addClass("is-active");
+		$(this).removeClass("is-outlined");
+		$(".all").removeClass("is-active");
+		$(".all").addClass("is-outlined");
+		$(".offline").removeClass("is-active");
+		$(".offline").addClass("is-outlined");
+	});
+
+	offline.addEventListener('click', function() {
+		$(this).addClass("is-active");
+		$(this).removeClass("is-outlined");
+		$(".online").removeClass("is-active");
+		$(".online").addClass("is-outlined");
+		$(".all").removeClass("is-active");
+		$(".all").addClass("is-outlined");
+	});
+
+</script>
+</body>
+</html>
